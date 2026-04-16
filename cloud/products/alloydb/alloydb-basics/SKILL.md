@@ -44,22 +44,22 @@ endpoint management to help developers build AI apps faster.
 
 ## Reference Directory
 
--   [Core Concepts](../references/core-concepts.md): Architecture, disaggregated
+-   [Core Concepts](references/core-concepts.md): Architecture, disaggregated
     storage, and performance features.
 
--   [CLI Usage](../references/cli-usage.md): Essential `gcloud alloydb` commands
+-   [CLI Usage](references/cli-usage.md): Essential `gcloud alloydb` commands
     for cluster and instance management.
 
--   [Client Libraries & Connectors](../references/client-library-usage.md):
+-   [Client Libraries & Connectors](references/client-library-usage.md):
     Connecting to AlloyDB using Python, Java, Node.js, and Go.
 
--   [MCP Usage](../references/mcp-usage.md): Using the AlloyDB remote MCP server
+-   [MCP Usage](references/mcp-usage.md): Using the AlloyDB remote MCP server
     and Gemini CLI extension.
 
--   [Infrastructure as Code](../references/iac-usage.md): Terraform
+-   [Infrastructure as Code](references/iac-usage.md): Terraform
     configuration and deployment examples.
 
--   [IAM & Security](../references/iam-security.md): Predefined roles, service
+-   [IAM & Security](references/iam-security.md): Predefined roles, service
     agents, and database authentication.
 
 *If you need product information not found in these references, use the
