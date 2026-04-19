@@ -44,9 +44,3 @@ resource "google_sql_user" "users" {
 
 - [Terraform Google Provider - SQL User](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_user)
 
-## YAML Samples
-
-Cloud SQL configuration can also be defined using YAML for use with Deployment
-Manager.
-
-- [Cloud SQL YAML Samples](https://docs.cloud.google.com/docs/samples?language=yaml&p=sql)

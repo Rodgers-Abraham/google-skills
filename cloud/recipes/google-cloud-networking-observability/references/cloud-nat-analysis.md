@@ -23,11 +23,15 @@ jsonPayload.allocation_status="DROPPED"`
 
 **Tool**: `query_sql`
 
-**SQL Pattern**: ``sql SELECT
+**SQL Pattern**:
+
+```sql
+SELECT
 JSON_VALUE(jsonPayload.gateway_details.internal_ip) AS internal_ip, COUNT(*) AS
 drop_count FROM `{project_id}.{dataset_id}._AllLogs` WHERE log_name LIKE
 '%nat_flows%' AND JSON_VALUE(jsonPayload.allocation_status) = 'DROPPED' GROUP BY
-1 ORDER BY drop_count DESC LIMIT 10``
+1 ORDER BY drop_count DESC LIMIT 10
+```
 
 ### 3. CLI Fallback
 
@@ -64,8 +68,12 @@ LIMIT 10
 
 ### gcloud
 
-To get the status of the router used by the NAT gateway: `bash gcloud compute
-routers get-status {router_name} --region {region}`
+To get the status of the router used by the NAT gateway:
+
+```bash
+gcloud compute
+routers get-status {router_name} --region {region}
+```
 
 ## Key Fields
 

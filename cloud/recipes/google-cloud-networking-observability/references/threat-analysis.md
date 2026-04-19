@@ -55,13 +55,17 @@ ORDER BY timestamp DESC
 LIMIT 20
 ```
 
-To find top sources of attacks: ``sql SELECT
+To find top sources of attacks:
+
+```sql
+SELECT
 JSON_VALUE(jsonPayload.connection.clientIp) AS attacker_ip, COUNT(*) AS
 attack_count, ARRAY_AGG(DISTINCT JSON_VALUE(jsonPayload.threatDetails.threat)
 LIMIT 5) AS sample_threats FROM `{project_id}.{dataset_id}._AllLogs` WHERE
 log_id IN ('networksecurity.googleapis.com/firewall_threat',
 'ids.googleapis.com/threat') AND timestamp >= TIMESTAMP_SUB(CURRENT_TIMESTAMP(),
-INTERVAL 7 DAY) GROUP BY 1 ORDER BY attack_count DESC LIMIT 10``
+INTERVAL 7 DAY) GROUP BY 1 ORDER BY attack_count DESC LIMIT 10
+```
 
 ### 3. CLI Fallback
 

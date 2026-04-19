@@ -16,13 +16,13 @@ operational overhead of managing the Auth Proxy as a separate binary.
 
 -   **Installation:**
 
-    ```bash
+  ```bash
   pip install "google-cloud-alloydb-connector[pg8000]" sqlalchemy
   ```
 
 -   **Usage Example:**
 
-    ```python
+  ```python
   import sqlalchemy
   from google.cloud.alloydbconnector import Connector
 
@@ -49,7 +49,7 @@ operational overhead of managing the Auth Proxy as a separate binary.
 
 -   **Maven Dependency:**
 
-    ```xml
+  ```xml
   <dependency>
     <groupId>com.google.cloud</groupId>
     <artifactId>alloydb-jdbc-connector</artifactId>
@@ -79,7 +79,7 @@ operational overhead of managing the Auth Proxy as a separate binary.
 
     Basic configuration of a data source looks like this:
 
-    ```java
+  ```java
   import com.zaxxer.hikari.HikariConfig;
   import com.zaxxer.hikari.HikariDataSource;
 
@@ -125,13 +125,13 @@ operational overhead of managing the Auth Proxy as a separate binary.
 
 -   **Installation:**
 
-    ```bash
+  ```bash
   go get cloud.google.com/go/alloydbconn
   ```
 
 -   **Usage Example:**
 
-    ```go
+  ```go
   package main
 
   import (

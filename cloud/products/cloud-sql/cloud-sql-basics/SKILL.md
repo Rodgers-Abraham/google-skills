@@ -27,7 +27,7 @@ Ensure you have the necessary IAM permissions to create and manage Cloud SQL
 instances. The **Cloud SQL Admin** (`roles/cloudsql.admin`) role provides full
 access to Cloud SQL resources.
 
-## Quick Start
+## Quick Start (PostgreSQL)
 
 1.  **Enable the API:**
     ```bash

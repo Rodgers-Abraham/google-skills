@@ -36,6 +36,5 @@ Here are some common Terraform resources for Firebase:
 - `google_firebaserules_release`: Deploy Firebase Security Rules rulesets for
   Firestore or for Cloud Storage for Firebase.
 
-For a complete list of Terraform resources and details about Terraform and
-Firebase, see
-https://firebase.google.com/docs/projects/terraform/get-started.md.txt
+For a complete list of Terraform resources, and details about Terraform and
+Firebase, see: https://firebase.google.com/docs/projects/terraform/get-started

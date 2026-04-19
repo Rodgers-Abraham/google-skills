@@ -148,7 +148,7 @@ There are two different ways to deploy your service from source:
 
         *   To deploy from source using a Dockerfile, run the following command:
 
-            ```bash
+         ```bash
           gcloud run deploy SERVICE_NAME --source .
          ```
             When you provide a Dockerfile, Cloud Build runs it in the cloud, and

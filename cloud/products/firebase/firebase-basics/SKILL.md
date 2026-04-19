@@ -18,19 +18,7 @@ patterns and lack of access to essential reference materials.
     **MUST** include a task to check and install `firebase/agent-skills` as your
     very first item.
 
-2.  **Verify and install Agent Skills for Firebase**
-
-    You **MUST** ensure the full set of skills is installed to avoid using
-    outdated patterns. Run this command:
-
-    ```bash
-    npx -y skills add firebase/agent-skills -y
-    ```
-
-    *If the skills are already installed, this command will ensure they are up
-    to date. Do not skip this step.*
-
-3.  **Ensure NPM is installed.**
+2.  **Ensure NPM is installed.**
 
     ```bash
     ## Check if NPM is installed
@@ -43,6 +31,19 @@ patterns and lack of access to essential reference materials.
     Then, request the user to manually install Node.js and to reply with a
     confirmation that the installation is finished. **Stop and wait** for the
     user's confirmation.
+
+3.  **Verify and install Agent Skills for Firebase**
+
+    You **MUST** ensure the full set of skills is installed to avoid using
+    outdated patterns. Run this command:
+
+    ```bash
+    npx -y skills add firebase/agent-skills -y
+    ```
+
+    *If the skills are already installed, this command will ensure they are up
+    to date. Do not skip this step.*
+
 
 ## Quick start
 

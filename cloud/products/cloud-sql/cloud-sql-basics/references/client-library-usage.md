@@ -6,8 +6,8 @@ Cloud SQL from various programming languages.
 ## Getting Started
 
 Ensure you have the latest version of the Google Cloud SDK installed and
-authenticated. [Install Google Cloud
-SDK](https://cloud.google.com/sdk/docs/install)
+authenticated.
+[Install Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
 
 ### Language Connectors
 
@@ -20,15 +20,15 @@ certificates.
 -   **Installation for a Cloud SQL for PostgreSQL instance:**
 
     ```bash
-  pip install "cloud-sql-python-connector[pg8000]"
-  ```
+    pip install "cloud-sql-python-connector[pg8000]"
+    ```
 
 -   **Usage Example:**
 
     ```python
-  from google.cloud.sql.connector import Connector
-  connector = Connector()
-  def getconn():
+    from google.cloud.sql.connector import Connector
+    connector = Connector()
+    def getconn():
       conn = connector.connect(
           "project:region:instance",
           "pg8000",
@@ -37,14 +37,14 @@ certificates.
           db="my-db"
       )
       return conn
-  ```
+    ```
 
 #### Java
 
 -   **Maven Dependencies:**
 
-    The recommended method is to use the Cloud SQL JDBC Socket Factory. Add
-    the BOM to your `<dependencyManagement>` section:
+    The recommended method is to use the Cloud SQL JDBC Socket Factory. Add the
+    BOM to your `<dependencyManagement>` section:
 
     ```xml
     <dependencyManagement>
@@ -63,7 +63,7 @@ certificates.
     Then add dependencies for your database:
 
     *   **PostgreSQL:**
-        ```xml
+        ```xml  
         <dependencies>
           <dependency>
             <groupId>org.postgresql</groupId>
@@ -78,7 +78,7 @@ certificates.
         ```
 
     *   **MySQL:**
-        ```xml
+        ```xml 
         <dependencies>
           <dependency>
             <groupId>com.mysql</groupId>
@@ -97,20 +97,20 @@ certificates.
 -   **Installation:**
 
     ```bash
-  npm install @google-cloud/cloud-sql-connector
-  ```
+    npm install @google-cloud/cloud-sql-connector
+    ```
 
 #### Go
 
 -   **Installation:**
 
     ```bash
-  go get cloud.google.com/go/cloudsqlconn
-  ```
+    go get cloud.google.com/go/cloudsqlconn
+    ```
 
 ## Cloud SQL Admin API
 
 To manage Cloud SQL resources (e.g., list instances) programmatically, use the
 `sqladmin` libraries.
 
--   [Cloud SQL Admin API Overview](https://cloud.google.com/sql/docs/mysql/admin-api)
+-   [Cloud SQL Admin API Overview](https://docs.cloud.google.com/sql/docs/mysql/admin-api)

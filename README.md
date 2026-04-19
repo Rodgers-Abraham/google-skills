@@ -28,9 +28,10 @@ From the `npx install` command, you can select the specific skills from this rep
 - [**Kubernetes Engine (GKE) Basics**](./cloud/products/kubernetes-engine/gke-basics)
 - [**Recipe: Onboarding to Google Cloud**](./cloud/recipes/google-cloud-recipe-onboarding)
 - [**Recipe: Authenticating to Google Cloud**](./cloud/recipes/google-cloud-recipe-auth)
-- [**Well-Architected Framework: Security**](./cloud/well-architected-framework/google-cloud-waf-security)
-- [**Well-Architected Framework: Reliability**](./cloud/well-architected-framework/google-cloud-waf-reliability)
-- [**Well-Architected Framework: Cost Optimization**](./cloud/well-architected-framework/google-cloud-waf-cost-optimization)
+- [**Recipe: Google Cloud Network Observability**](./cloud/recipes/google-cloud-networking-observability)
+- [**Google Cloud Well-Architected Framework: Security**](./cloud/well-architected-framework/google-cloud-waf-security)
+- [**Google Cloud Well-Architected Framework: Reliability**](./cloud/well-architected-framework/google-cloud-waf-reliability)
+- [**Google Cloud Well-Architected Framework: Cost Optimization**](./cloud/well-architected-framework/google-cloud-waf-cost-optimization)
 
 ## Support
 
