@@ -16,7 +16,6 @@ npx skills add google/skills
 
 From the `npx install` command, you can select the specific skills from this repo to install.  
 
-
 ## Available Skills
 
 - [**Gemini API in Agent Platform**](./cloud/products/agent-platform/gemini-api)
@@ -35,7 +34,7 @@ From the `npx install` command, you can select the specific skills from this rep
 
 ## Support
 
-If you need help or encounter issues with these skills, search for existing issues or open a new one in our [GitHub Issue Tracker](https://github.com/google/skills/issues).
+If you need help or encounter issues with these skills, search for existing issues or open a new one in the [GitHub Issue Tracker](https://github.com/google/skills/issues).
 
 ## Contributing
 
