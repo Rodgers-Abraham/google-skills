@@ -14,7 +14,8 @@ This repository contains [Agent Skills](https://agentskills.io/home) for Google 
 npx skills add google/skills
 ```
 
-From the `npx install` command, you can select the specific skills from this repo to install.
+From the `npx install` command, you can select the specific skills from this
+repo to install.
 
 ## Available Skills
 
