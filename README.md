@@ -19,19 +19,19 @@ repo to install.
 
 ## Available Skills
 
-- [**Gemini API in Agent Platform**](./cloud/products/agent-platform/gemini-api)
-- [**AlloyDB Basics**](./cloud/products/alloydb/alloydb-basics)
-- [**BigQuery Basics**](./cloud/products/bigquery/bigquery-basics)
-- [**Cloud Run Basics**](./cloud/products/cloud-run/cloud-run-basics)
-- [**Cloud SQL Basics**](./cloud/products/cloud-sql/cloud-sql-basics)
-- [**Firebase Basics**](./cloud/products/firebase/firebase-basics)
-- [**Kubernetes Engine (GKE) Basics**](./cloud/products/kubernetes-engine/gke-basics)
-- [**Recipe: Onboarding to Google Cloud**](./cloud/recipes/google-cloud-recipe-onboarding)
-- [**Recipe: Authenticating to Google Cloud**](./cloud/recipes/google-cloud-recipe-auth)
-- [**Recipe: Google Cloud Network Observability**](./cloud/recipes/google-cloud-networking-observability)
-- [**Google Cloud Well-Architected Framework: Security**](./cloud/well-architected-framework/google-cloud-waf-security)
-- [**Google Cloud Well-Architected Framework: Reliability**](./cloud/well-architected-framework/google-cloud-waf-reliability)
-- [**Google Cloud Well-Architected Framework: Cost Optimization**](./cloud/well-architected-framework/google-cloud-waf-cost-optimization)
+- [**Gemini API in Agent Platform**](./skills/cloud/gemini-api)
+- [**AlloyDB Basics**](./skills/cloud/alloydb-basics)
+- [**BigQuery Basics**](./skills/cloud/bigquery-basics)
+- [**Cloud Run Basics**](./skills/cloud/cloud-run-basics)
+- [**Cloud SQL Basics**](./skills/cloud/cloud-sql-basics)
+- [**Firebase Basics**](./skills/cloud/firebase-basics)
+- [**Kubernetes Engine (GKE) Basics**](./skills/cloud/gke-basics)
+- [**Recipe: Onboarding to Google Cloud**](./skills/cloud/google-cloud-recipe-onboarding)
+- [**Recipe: Authenticating to Google Cloud**](./skills/cloud/google-cloud-recipe-auth)
+- [**Recipe: Google Cloud Network Observability**](./skills/cloud/google-cloud-networking-observability)
+- [**Google Cloud Well-Architected Framework: Security**](./skills/cloud/google-cloud-waf-security)
+- [**Google Cloud Well-Architected Framework: Reliability**](./skills/cloud/google-cloud-waf-reliability)
+- [**Google Cloud Well-Architected Framework: Cost Optimization**](./skills/cloud/google-cloud-waf-cost-optimization)
 
 ## Support
 
